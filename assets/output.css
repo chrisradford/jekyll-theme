@@ -4662,6 +4662,11 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
   }
