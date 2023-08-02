@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link href="/assets/output.css" rel="stylesheet">
     <title>{{ page.title }}</title>
+    {% if site.fathom_code %}
+    <script src="https://cdn.usefathom.com/script.js" data-site="{{ site.fathom_code }}" defer></script>
+    {% endif %}
   </head>
   <body class="container mx-auto max-w-2xl mt-24 mb-4 sm:px-4">
     <div class="prose prose-stone">
